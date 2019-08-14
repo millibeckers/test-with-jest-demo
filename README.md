@@ -4,6 +4,8 @@ Demo code to go along with my presentation at the [React Native meetup in San Fr
 
 Slides can be found [here](https://docs.google.com/presentation/d/10o3-Jfj_yIGktwN0HzM_LICOhGV_uJovRjiVECcPSI8/edit?usp=sharing)
 
+For more detailed information about what Jest can do, see the [Jest documentation](https://jestjs.io/docs/en/getting-started)
+
 ## Talk Description
 
 Just about everybody would agree that writing good unit tests results in a better codebase; the act of writing the tests helps make sure that edge cases are covered and that code is written in clean, testable pieces, and down the line, they can catch regressions. In this talk, I'll introduce the Jest testing library and then use it to get one hundred percent test coverage on an example component. Along the way we will talk about async testing, mocks, and spies, and discuss how to build your test suites so that the results are still meaningful next week and beyond.
@@ -20,4 +22,5 @@ Clone the repo
 In terminal in your project directory, run `react-native run-ios`
 
 To run the tests, simply run `yarn test`
+
 
