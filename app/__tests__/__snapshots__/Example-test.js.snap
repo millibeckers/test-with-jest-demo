@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Example renders correctly when annoyed 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#ccff99",
+        "height": 300,
+        "justifyContent": "space-around",
+      },
+    ]
+  }
+>
+  <Text>
+    Is it ready? Press the button to find out.
+  </Text>
+  <Text>
+    Not yet...
+  </Text>
+  <View
+    accessibilityRole="button"
+    accessibilityStates={Array []}
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        That's enough.
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Example renders correctly when not annoyed 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#ccff99",
+        "height": 300,
+        "justifyContent": "space-around",
+      },
+    ]
+  }
+>
+  <Text>
+    Is it ready? Press the button to find out.
+  </Text>
+  <Text>
+    Not yet...
+  </Text>
+  <View
+    accessibilityRole="button"
+    accessibilityStates={Array []}
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Press me!
+      </Text>
+    </View>
+  </View>
+</View>
+`;
